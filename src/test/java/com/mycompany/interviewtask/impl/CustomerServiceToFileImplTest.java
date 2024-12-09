@@ -47,7 +47,7 @@ public class CustomerServiceToFileImplTest {
     }
 
     @Test
-    void testWriteProneNumbersToFile_withValidData() throws Exception {
+    void testWriteProneNumbersToFile() throws Exception {
         Customer customer1 = new Customer(null, "Ivan", "Ivanov", Status.GOLD, 10, 1, "+1234567890", null);
         Customer customer2 = new Customer(null, "Nastya", "Ivanova", Status.SILVER, 5, 0, "+0987654321", null);
         List<Customer> mockCustomers = Arrays.asList(customer1, customer2);
